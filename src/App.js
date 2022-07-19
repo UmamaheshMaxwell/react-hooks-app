@@ -5,11 +5,13 @@ import UseStateWithObject from "./hooks/1.use-state/use-state-with-object";
 import UseEffect from "./hooks/2.use-effect/use-effect";
 import UseEffectCondition from "./hooks/2.use-effect/use-effect-condition";
 import UseEffectFetchData from "./hooks/2.use-effect/use-effect-fetchdata";
+import GetUsers from "./hooks/3.custom-hooks/GetUsers";
 
 function App() {
   return (
     <div className="container">
-      <UseEffectFetchData />
+      <GetUsers />
+      {/* <UseEffectFetchData /> */}
       {/* <UseEffectCondition /> */}
       {/* <UseEffect /> */}
       {/* <UseStateWithArray /> */}
